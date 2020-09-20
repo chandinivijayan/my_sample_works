@@ -1,0 +1,13 @@
+
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened>
+        <app-navbar style="position: fixed;width: 100%;z-index: 2;"></app-navbar>
+        <app-sidebar></app-sidebar>
+    </mat-drawer>
+    <mat-drawer-content>
+        <div class="main-content-wrap">
+            <router-outlet></router-outlet>
+        </div>
+        <!-- <app-footer></app-footer> -->
+    </mat-drawer-content>
+</mat-drawer-container>

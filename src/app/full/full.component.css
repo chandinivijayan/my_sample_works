@@ -1,0 +1,14 @@
+.main-content-wrap{
+    display: table;
+    height: -webkit-fill-available;
+    padding: 5px 22px 22px;
+    table-layout: fixed;
+    width: 100%;
+    background: #e2ecf0;;
+    margin-top: 5%;
+    padding-top: 15px;
+}
+.mat-drawer-container {
+    background-color: white;
+    color: #c2c6d6;
+}

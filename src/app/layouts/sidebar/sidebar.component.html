@@ -1,0 +1,57 @@
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport
+        [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+        [mode]="(isHandset$ | async) ? 'over' : 'side'"
+        [opened]="(isHandset$ | async) === false">
+      
+      <mat-nav-list style="padding-top: 65px;height:100%;background: #3f6577;">
+        
+        <nav class="main-menu">
+          <ul>
+            <li mat-list-item class="menu-item">
+  
+              <a class="item-link active">
+                <span class="icon1"><img src="../../../assets/icon/home-blue.png" alt=""></span> &nbsp; Dashboard
+                <i class="caret fa fa-angle-right" style="float: right;"></i>
+              </a>
+              <a class="item-link">
+                <span class="icon1"><img src="../../../assets/icon/wallet.png" alt=""></span> &nbsp; E-Wallets
+                <i class="caret fa fa-angle-right" style="float: right;"></i>
+              </a>
+              <a class="item-link">
+                <span class="icon1"><img src="../../../assets/icon/user-blue.png" alt=""></span> &nbsp; Affiliates
+                <i class="caret fa fa-angle-right" style="float: right;"></i>
+              </a>
+              <a class="item-link">
+                <span class="icon1"><img src="../../../assets/icon/calendar-blue.png" alt=""></span> &nbsp; Events
+                <i class="caret fa fa-angle-right" style="float: right;"></i>
+              </a>
+              <a class="item-link">
+                <span class="icon1"><img src="../../../assets/icon/creditcard-blue.png" alt=""></span> &nbsp; Payments
+                <i class="caret fa fa-angle-right" style="float: right;"></i>
+              </a>
+              <a class="item-link">
+                <span class="icon1"><img src="../../../assets/icon/store-blue.png" alt=""></span> &nbsp; Manage my business
+                <i class="caret fa fa-angle-right" style="float: right;"></i>
+              </a>
+              <a class="item-link">
+                <span class="icon1"><img src="../../../assets/icon/settings-blue.png" alt=""></span> &nbsp; Settings
+                <i class="caret fa fa-angle-right" style="float: right;"></i>
+              </a>
+  
+              <!-- <ul class="sub">
+                <li class="menu-item">
+                  <span class="item-link">
+                    <img src="../../../assets/icon/dashboard.png" alt="">Dashboard
+                  </span>
+                </li>
+              </ul> -->
+  
+            </li>
+          </ul>
+        </nav>
+  
+      </mat-nav-list>
+    </mat-sidenav>
+  </mat-sidenav-container>
+  

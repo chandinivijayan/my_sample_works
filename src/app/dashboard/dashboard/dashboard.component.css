@@ -1,0 +1,30 @@
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+}
+.textcentre{
+    text-align: center
+}
+.image1{
+    height: 150px;
+    width: 250px;
+    margin: 5px 5px 5px 10px;
+}
+p{
+    font-size: small;
+}
+.icon11{
+    height: 20px;
+    width: 20px;
+}
+.card{
+    margin: 15px 15px 15px 15px
+}
+.right{
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    bottom: 15px;
+}
